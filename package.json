@@ -1,0 +1,19 @@
+{
+  "name": "roninwz-plugin",
+  "version": "0.0.3",
+  "description": "自定义生成打包文件列表大小信息的plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "webpack --progress --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "firstlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "gitHead": "cca6256fa1d38bef3a62788d229921b745b926d3"
+}
